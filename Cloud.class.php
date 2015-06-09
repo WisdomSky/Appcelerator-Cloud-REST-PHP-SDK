@@ -1,7 +1,7 @@
 <?php
 /**
  *    ACS Cloud Service PHP Helper Class
- *    by Time River Design, Inc.
+ *    by WisdomSky.
  * 
  * */
 
