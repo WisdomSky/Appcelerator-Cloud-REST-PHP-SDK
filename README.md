@@ -27,3 +27,13 @@ example:
   		"to_ids"  => "everyone"
 	));
 ```
+
+But to make things easier for Push Notifications, we already included a **PushNotification class** which will save you time formatting when sending push notifications. :)
+```php
+	$ACS->PushNotification->notify(array(
+		"channel"   => "free_channel", 
+		"alert"		=> "Hello World 5",
+		"title"		=> "Coupon",
+		"badge"		=> "+1"
+	)); 
+```
